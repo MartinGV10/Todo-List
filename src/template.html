@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="content">
+
+        <dialog class="dialog item-dialog">
+            <form action="" class="form item-form">
+                <div class="inputs">
+                    <div class="in-left">
+                        <label for="" class="l-title">Title</label>
+                        <input type="text" class="i-title">
+                        
+                        <label for="" class="l-desc">Description (50 char. max)</label>
+                        <textarea type="" class="i-desc"></textarea>
+                    </div>
+
+                    <div class="in-right">
+                        <label for="" class="l-duedate">Due Date</label>
+                        <input type="date" class="i-date">
+    
+                        <label for="" class="l-priority">Priority</label>
+                        <select name="" id="prio-drop" class="prio-drop">
+                            <option value="Unimportant" class="option">Unimportant</option>
+                            <option value="Can Wait" class="option">Can Wait</option>
+                            <option value="Urgent" class="option">Urgent</option>
+                        </select>
+                    </div>
+
+                    
+                    
+                    
+                </div>
+                <div class="btns">
+                    <div class="location">
+                        <label for="" class="loc">Category</label>
+                        <select name="" id="drop-down" class="drop-down">
+                            <!-- <option value="Project 1" class="option">Project 1</option>
+                            <option value="Computer Org Notes" class="option">Computer Org Notes</option>
+                            <option value="Secure Coding Notes" class="option">Secure Coding Notes</option>
+                            <option value="Software Sys. Des. Notes" class="option">Software Sys. Des. Notes</option> -->
+                        </select>
+                    </div>
+
+                    <div class="btn-bottom">
+                        <button type="submit" class="sub">Submit</button>
+                        <button type="button" class="close">Close</button>
+                    </div>
+                </div>
+            </form>
+        </dialog>
+
+        <div class="sidebar">
+            <h1 class="nav-title">Lock in twin</h1>
+
+
+            <div class="projects-list">
+                <div class="list-labels">
+                    <div class="sidebar-label">Task Groups</div>
+                    <img src="assets/add.png" alt="" class="add">
+                </div>
+                <!-- <div class="list active">
+                    Home
+                </div> -->
+            </div>
+        </div>
+
+        <div class="main">
+
+            <div class="add-section">
+                 <div class="add-item">
+                     <img src="assets/add.png" alt="" class="add-pic">
+                 </div>
+            </div>
+
+            <div class="cards">
+
+                <dialog class="dialog tab-dialog" >
+                    <form action="" class="form tab-form">
+                        <div class="inputs">
+                            <label for="">Title</label>
+                            <input type="text" class="tab-name">
+                        </div>
+                        <div class="btns2">
+                            <button type="submit" class="sub">Submit</button>
+                            <button type="button" class="close two">Close</button>
+                        </div>
+                    </form>
+                </dialog>
+
+                <!-- <div class="todo-elm">
+                    <div class="todo-top">
+                        <h3 class="card-title">Buy Groceries</h3>
+                        <div class="todo-images">
+                            <img src="assets/edit.png" alt="" class="edit">
+                            <img src="assets/delete.png" alt="" class="del">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="d-top">
+                            <p class="desc">Buy chicken, rice, beans, oil</p>
+                        </div>
+                        <div class="d-bottom">
+                            <p class="due-date">Due: 9/15/2025</p>
+                            <p class="priority">Priority: Urgent</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                 <!-- <div class="todo-elm">
+                    <div class="todo-top">
+                        <h3 class="card-title">Do Prog HW</h3>
+                        <div class="todo-images">
+                            <img src="assets/edit.png" alt="" class="edit">
+                            <img src="assets/delete.png" alt="" class="del">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="d-top">
+                            <p class="desc">Buy chicken, rice, beans, oil</p>
+                        </div>
+                        <div class="d-bottom">
+                            <p class="due-date">Due: 10/25/2025</p>
+                            <p class="priority">Priority: Unimportant</p>
+                        </div>
+                    </div>
+                </div>            
+                
+                <div class="todo-elm">
+                    <div class="todo-top">
+                        <h3 class="card-title">Go to the gym</h3>
+                        <div class="todo-images">
+                            <img src="assets/edit.png" alt="" class="edit">
+                            <img src="assets/delete.png" alt="" class="del">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="d-top">
+                            <p class="desc">Buy chicken, rice, beans, oil</p>
+                        </div>
+                        <div class="d-bottom">
+                            <p class="due-date">Due: 9/01/2025</p>
+                            <p class="priority">Priority: Can wait</p>
+                        </div>
+                    </div>
+                </div>            
+                
+                <div class="todo-elm">
+                    <div class="todo-top">
+                        <h3 class="card-title">Buy plane ticket</h3>
+                        <div class="todo-images">
+                            <img src="assets/edit.png" alt="" class="edit">
+                            <img src="assets/delete.png" alt="" class="del">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="d-top">
+                            <p class="desc">Buy chicken, rice, beans, oil</p>
+                        </div>
+                        <div class="d-bottom">
+                            <p class="due-date">Due: 8/31/2025</p>
+                            <p class="priority">Priority: Urgent</p>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+        
+    </div>
+    
+</body>
+</html>
