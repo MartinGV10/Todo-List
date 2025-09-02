@@ -20,7 +20,6 @@ body {
 
 .add-section {
     display: flex;
-    /* height: 40px; */
     width: 100%;
     margin: 10px auto 0 auto;
     justify-content: flex-end;
@@ -35,22 +34,16 @@ body {
     padding: 5px;
     margin: auto;
     transition: 0.2s all;
-    /* height: 30px; */
-    /* transition: 0.2s all; */
     cursor: pointer;
     height: 30px;
 }
 
 .add-pic:hover {
-    /* border: 2px solid rgb(126, 126, 126); */
-    /* background-color: rgb(94, 94, 94); */
     background-color: rgb(77, 77, 77);
-    /* background-color: red; */
     box-shadow: 0 0 15px rgb(94, 94, 94);
 }
 
 .add-item {
-    /* background-color: red; */
     transition: 0.2s all;
     border-radius: 10px;
     padding: 5px;
@@ -116,7 +109,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s all;
-    /* font-weight: 500; */
     display: flex;
     align-items: center;
     justify-content: space-between;
